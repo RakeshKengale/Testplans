@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html lang="en">
    <head>
-      <title> Android Application Test Plan(Static HTML Page) </title>
+      <title> Android Application Test Plan</title>
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
@@ -21,10 +21,11 @@
    </style>
    <body>
       <div class="container">
-         <h1> Android Application Test Plan(Static HTML Page) </h1>
+         <h1> Android Application Test Plan</h1>
          <p> Type something in the input field to search the table:  </p>
          <input class="form-control" id="myInput" type="text" placeholder="Mobile OWASP Category, Checks, Tools used...">
          <br>
+         <div class="table-responsive">
          <table class="table table-bordered table-hover table-sm">
             <thead class="thead-dark">
                <tr>
@@ -587,6 +588,7 @@
                <tr>
             </tbody>
          </table>
+            </div>
          <p> Note that we start the search in tbody, to prevent filtering the table headers. </p>
       </div>
       <div class="container">
