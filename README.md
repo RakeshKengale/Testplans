@@ -1,3 +1,3 @@
-# Testplans
+# AppSec Testplans
 
-- Android Application Test Plan(Static HTML Page)
+- [Android Application Test Plan](https://rakeshkengale.github.io/Testplans/)
